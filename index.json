@@ -11,5 +11,15 @@
       "05-destaque.jpg",
       "06-final.jpg"
     ]
+  },
+  "documentos-compra-venda-imovel-stories": {
+    "slug": "documentos-compra-venda-imovel-stories",
+    "titulo": "Documentos para compra e venda de imóvel — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
