@@ -34,5 +34,15 @@
       "05-destaque.jpg",
       "06-final.jpg"
     ]
+  },
+  "documentos-para-trocar-o-filho-de-escola-stories": {
+    "slug": "documentos-para-trocar-o-filho-de-escola-stories",
+    "titulo": "Documentos para trocar o filho de escola — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
