@@ -21,5 +21,18 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "documentos-para-trocar-o-filho-de-escola": {
+    "slug": "documentos-para-trocar-o-filho-de-escola",
+    "titulo": "Documentos para trocar o filho de escola",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-passos.jpg",
+      "03-lista.jpg",
+      "04-lista.jpg",
+      "05-destaque.jpg",
+      "06-final.jpg"
+    ]
   }
 }
