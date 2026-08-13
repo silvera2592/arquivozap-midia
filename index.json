@@ -1,0 +1,15 @@
+{
+  "documentos-compra-venda-imovel": {
+    "slug": "documentos-compra-venda-imovel",
+    "titulo": "Documentos para compra e venda de imóvel",
+    "formato": "feed",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-passos.jpg",
+      "03-lista.jpg",
+      "04-lista.jpg",
+      "05-destaque.jpg",
+      "06-final.jpg"
+    ]
+  }
+}
