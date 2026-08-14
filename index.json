@@ -44,5 +44,17 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "quem-e-o-arquivo-vivo-da-familia": {
+    "slug": "quem-e-o-arquivo-vivo-da-familia",
+    "titulo": "Quem é o arquivo vivo da família",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-chat.jpg",
+      "03-lista.jpg",
+      "04-destaque.jpg",
+      "05-final.jpg"
+    ]
   }
 }
