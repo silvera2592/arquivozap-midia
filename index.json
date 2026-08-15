@@ -66,5 +66,18 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "documentos-para-licenciar-o-carro": {
+    "slug": "documentos-para-licenciar-o-carro",
+    "titulo": "Documentos para licenciar o carro",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-passos.jpg",
+      "03-lista.jpg",
+      "04-lista.jpg",
+      "05-destaque.jpg",
+      "06-final.jpg"
+    ]
   }
 }
