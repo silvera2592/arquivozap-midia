@@ -79,5 +79,15 @@
       "05-destaque.jpg",
       "06-final.jpg"
     ]
+  },
+  "documentos-para-licenciar-o-carro-stories": {
+    "slug": "documentos-para-licenciar-o-carro-stories",
+    "titulo": "Documentos para licenciar o carro — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
