@@ -89,5 +89,19 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "documentos-para-inventario-na-familia": {
+    "slug": "documentos-para-inventario-na-familia",
+    "titulo": "Documentos para inventário na família",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-lista.jpg",
+      "04-lista.jpg",
+      "05-destaque.jpg",
+      "06-destaque.jpg",
+      "07-final.jpg"
+    ]
   }
 }
