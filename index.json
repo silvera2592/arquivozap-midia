@@ -103,5 +103,15 @@
       "06-destaque.jpg",
       "07-final.jpg"
     ]
+  },
+  "documentos-para-inventario-na-familia-stories": {
+    "slug": "documentos-para-inventario-na-familia-stories",
+    "titulo": "Documentos para inventário na família — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
