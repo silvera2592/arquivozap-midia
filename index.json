@@ -127,5 +127,15 @@
       "06-destaque.jpg",
       "07-final.jpg"
     ]
+  },
+  "caderneta-de-vacinacao-do-seu-filho-stories": {
+    "slug": "caderneta-de-vacinacao-do-seu-filho-stories",
+    "titulo": "Caderneta de vacinação do seu filho — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
