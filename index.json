@@ -113,5 +113,19 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "caderneta-de-vacinacao-do-seu-filho": {
+    "slug": "caderneta-de-vacinacao-do-seu-filho",
+    "titulo": "Caderneta de vacinação do seu filho",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-lista.jpg",
+      "04-passos.jpg",
+      "05-destaque.jpg",
+      "06-destaque.jpg",
+      "07-final.jpg"
+    ]
   }
 }
