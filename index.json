@@ -137,5 +137,18 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "prova-de-vida-do-inss-e-o-golpe-do-whatsapp": {
+    "slug": "prova-de-vida-do-inss-e-o-golpe-do-whatsapp",
+    "titulo": "Prova de vida do INSS e o golpe do WhatsApp",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-lista.jpg",
+      "04-passos.jpg",
+      "05-destaque.jpg",
+      "06-final.jpg"
+    ]
   }
 }
