@@ -150,5 +150,15 @@
       "05-destaque.jpg",
       "06-final.jpg"
     ]
+  },
+  "prova-de-vida-do-inss-e-o-golpe-do-whatsapp-stories": {
+    "slug": "prova-de-vida-do-inss-e-o-golpe-do-whatsapp-stories",
+    "titulo": "Prova de vida do INSS e o golpe do WhatsApp — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
