@@ -183,5 +183,19 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "autorizacao-de-viagem-de-crianca-no-feriado-de-7-de-setembro": {
+    "slug": "autorizacao-de-viagem-de-crianca-no-feriado-de-7-de-setembro",
+    "titulo": "Autorização de viagem de criança no feriado de 7 de setembro",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-lista.jpg",
+      "04-destaque.jpg",
+      "05-passos.jpg",
+      "06-lista.jpg",
+      "07-final.jpg"
+    ]
   }
 }
