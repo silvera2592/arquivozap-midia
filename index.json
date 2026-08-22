@@ -231,5 +231,18 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "a-gaveta-que-so-voce-decifra": {
+    "slug": "a-gaveta-que-so-voce-decifra",
+    "titulo": "A gaveta que só você decifra",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-chat.jpg",
+      "04-destaque.jpg",
+      "05-lista.jpg",
+      "06-final.jpg"
+    ]
   }
 }
