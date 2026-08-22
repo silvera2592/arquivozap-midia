@@ -244,5 +244,15 @@
       "05-lista.jpg",
       "06-final.jpg"
     ]
+  },
+  "a-gaveta-que-so-voce-decifra-stories": {
+    "slug": "a-gaveta-que-so-voce-decifra-stories",
+    "titulo": "A gaveta que só você decifra — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
