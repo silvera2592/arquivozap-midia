@@ -221,5 +221,15 @@
       "06-lista.jpg",
       "07-final.jpg"
     ]
+  },
+  "receita-nao-entrega-mais-copia-do-ir-no-balcao-stories": {
+    "slug": "receita-nao-entrega-mais-copia-do-ir-no-balcao-stories",
+    "titulo": "Receita não entrega mais cópia do IR no balcão — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
