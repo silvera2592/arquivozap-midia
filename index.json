@@ -254,5 +254,13 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "conversa-print-whatsapp": {
+    "slug": "conversa-print-whatsapp",
+    "titulo": "AZ | conversa | print-whatsapp v2",
+    "formato": "retrato",
+    "arquivos": [
+      "01-chat.jpg"
+    ]
   }
 }
