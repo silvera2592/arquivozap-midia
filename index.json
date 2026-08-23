@@ -270,5 +270,13 @@
     "arquivos": [
       "01-texto.jpg"
     ]
+  },
+  "antes-depois-vertical": {
+    "slug": "antes-depois-vertical",
+    "titulo": "AZ | antes-depois | vertical v3",
+    "formato": "vertical",
+    "arquivos": [
+      "01-antesdepois.jpg"
+    ]
   }
 }
