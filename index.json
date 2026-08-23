@@ -278,5 +278,13 @@
     "arquivos": [
       "01-antesdepois.jpg"
     ]
+  },
+  "depoimento-print": {
+    "slug": "depoimento-print",
+    "titulo": "AZ | depoimento | print v2",
+    "formato": "retrato",
+    "arquivos": [
+      "01-destaque.jpg"
+    ]
   }
 }
