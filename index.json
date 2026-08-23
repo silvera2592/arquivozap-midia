@@ -262,5 +262,13 @@
     "arquivos": [
       "01-chat.jpg"
     ]
+  },
+  "rematricula-estatico": {
+    "slug": "rematricula-estatico",
+    "titulo": "AZ | rematricula | estatico v2",
+    "formato": "retrato",
+    "arquivos": [
+      "01-texto.jpg"
+    ]
   }
 }
