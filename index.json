@@ -300,5 +300,15 @@
       "06-lista.jpg",
       "07-final.jpg"
     ]
+  },
+  "cnh-vencida-tem-prazo-novo-ate-9-de-setembro-stories": {
+    "slug": "cnh-vencida-tem-prazo-novo-ate-9-de-setembro-stories",
+    "titulo": "CNH vencida tem prazo novo até 9 de setembro — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
