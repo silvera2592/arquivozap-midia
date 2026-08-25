@@ -310,5 +310,19 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "matricula-fora-da-rede-estadual-tem-prazo-ate-14-de-setembro": {
+    "slug": "matricula-fora-da-rede-estadual-tem-prazo-ate-14-de-setembro",
+    "titulo": "Matrícula fora da rede estadual tem prazo até 14 de setembro",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-lista.jpg",
+      "04-passos.jpg",
+      "05-destaque.jpg",
+      "06-lista.jpg",
+      "07-final.jpg"
+    ]
   }
 }
