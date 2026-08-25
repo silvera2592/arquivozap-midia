@@ -1,4 +1,12 @@
 {
+  "apresentacao-narrado-60s-vertical": {
+    "slug": "apresentacao-narrado-60s-vertical",
+    "titulo": "Apresentação ArquivoZap — narrado 60s — 9:16",
+    "formato": "vertical",
+    "arquivos": [
+      "01-apresentacao-9x16.mp4"
+    ]
+  },
   "documentos-compra-venda-imovel": {
     "slug": "documentos-compra-venda-imovel",
     "titulo": "Documentos para compra e venda de imóvel",

@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<title>ArquivoZap — 9:16</title>
+<style>
+@import url('fonts.css');
+
+:root{
+  --bg:#0B1014;
+  --bg-green:#0E211D;
+  --card:#131D29;
+  --card-2:#16202C;
+  --line:rgba(255,255,255,.07);
+  --green:#25D366;
+  --green-ico:#31B164;
+  --green-deep:#07873A;
+  --white:#fff;
+  --muted:#8F99A5;
+  --muted-2:#646E77;
+  --phone-frame:#0A0D16;
+  --phone-bg:#09141A;
+  --bubble:#1E2B31;
+  --chathead:#1E2B34;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#000;font-family:Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+
+.slide{
+  position:relative;width:1080px;height:1920px;overflow:hidden;
+  background:var(--bg);color:#fff;
+  display:flex;flex-direction:column;
+}
+/* fundo: brilho verde nos cantos + textura de pontos */
+.slide::before{
+  content:"";position:absolute;inset:0;
+  background:
+    radial-gradient(720px 720px at 8% 6%, rgba(37,211,102,.13), transparent 62%),
+    radial-gradient(820px 820px at 96% 96%, rgba(37,211,102,.10), transparent 62%),
+    radial-gradient(900px 900px at 50% 40%, rgba(11,16,20,0), rgba(6,9,12,.55) 100%);
+}
+.slide::after{
+  content:"";position:absolute;inset:0;opacity:.5;
+  background-image:radial-gradient(rgba(255,255,255,.055) 1.1px, transparent 1.1px);
+  background-size:34px 34px;
+  -webkit-mask-image:radial-gradient(900px 1400px at 50% 45%, #000 0%, transparent 78%);
+          mask-image:radial-gradient(900px 1400px at 50% 45%, #000 0%, transparent 78%);
+}
+.inner{position:relative;z-index:2;display:flex;flex-direction:column;height:100%;padding:78px 72px 90px}
+
+/* ---------- header ---------- */
+.head{display:flex;align-items:center;justify-content:space-between;margin-bottom:96px}
+.brand{display:flex;align-items:center;gap:18px}
+.brand .word{font-family:Poppins;font-weight:800;font-size:44px;letter-spacing:-.02em;color:#fff}
+.brand .word i{font-style:normal;color:var(--green)}
+.count{font-family:Poppins;font-weight:700;font-size:30px;letter-spacing:.16em;color:#5C6773}
+.count b{color:#98A3AE;font-weight:700}
+
+/* ---------- tipografia ---------- */
+.eyebrow{font-family:Poppins;font-weight:700;font-size:27px;letter-spacing:.34em;color:var(--green);margin-bottom:24px}
+h1{font-family:Poppins;font-weight:800;letter-spacing:-.025em;line-height:1.04;font-size:92px}
+h1.sm{font-size:80px}
+.lead{font-family:Inter;font-weight:400;font-size:39px;line-height:1.5;color:var(--muted);margin-top:32px;max-width:930px}
+.copy{flex:0 0 auto}
+.stage{flex:1 1 auto;display:flex;align-items:center;justify-content:center;margin-top:64px;min-height:0}
+
+/* ---------- ícone da marca ---------- */
+.ico{display:block}
+
+/* ---------- capa ---------- */
+.cover{align-items:center;justify-content:center;text-align:center;gap:0}
+.cover .glow{position:relative;display:grid;place-items:center;margin-bottom:64px}
+.cover .glow::after{content:"";position:absolute;width:420px;height:420px;border-radius:50%;
+  background:radial-gradient(circle, rgba(37,211,102,.28), transparent 65%);z-index:-1}
+.cover .plate{width:250px;height:250px;border-radius:64px;background:#0E1519;display:grid;place-items:center;
+  box-shadow:0 0 90px rgba(37,211,102,.30)}
+.cover .title{font-family:Poppins;font-weight:800;font-size:132px;letter-spacing:-.03em;line-height:1}
+.cover .title i{font-style:normal;color:var(--green)}
+.cover .sub{font-family:Inter;font-weight:400;font-size:46px;color:var(--muted);margin-top:28px}
+.pill{margin-top:70px;display:inline-block;padding:34px 56px;border-radius:999px;background:var(--bg-green);
+  border:1px solid rgba(37,211,102,.16);font-family:Inter;font-weight:600;font-size:38px;color:#fff}
+
+/* ---------- listas / cards ---------- */
+.rows{display:flex;flex-direction:column;gap:26px;width:100%}
+.row{display:flex;align-items:center;gap:34px;background:var(--card);border:1px solid var(--line);
+  border-radius:32px;padding:40px 44px}
+.row .n{flex:0 0 auto;width:84px;height:84px;border-radius:50%;display:grid;place-items:center;
+  font-family:Poppins;font-weight:800;font-size:38px;background:#12302A;color:var(--green)}
+.row.on .n{background:var(--green);color:#08130D}
+.row .t{font-family:Poppins;font-weight:700;font-size:44px;letter-spacing:-.01em}
+.row .s{font-family:Inter;font-weight:400;font-size:32px;color:var(--muted);margin-top:8px}
+
+.cards{display:flex;flex-direction:column;gap:34px;width:100%}
+.cmd{background:var(--card);border:1px solid var(--line);border-radius:32px;padding:46px 46px 50px;position:relative;overflow:hidden}
+.cmd::before{content:"";position:absolute;left:0;top:0;right:0;height:8px;background:var(--green)}
+.cmd h3{font-family:Poppins;font-weight:700;font-size:48px;letter-spacing:-.01em}
+.cmd p{font-family:Inter;font-weight:400;font-size:33px;line-height:1.45;color:var(--muted);margin-top:16px}
+
+/* ---------- telefone ---------- */
+.phone{width:700px;height:1080px;border-radius:76px;background:var(--phone-frame);
+  border:2px solid rgba(120,140,190,.20);padding:16px;display:flex;flex-direction:column;
+  box-shadow:0 40px 120px rgba(0,0,0,.55)}
+.screen{flex:1;border-radius:62px;background:var(--phone-bg);display:flex;flex-direction:column;overflow:hidden}
+.chathead{display:flex;align-items:center;gap:20px;padding:32px 34px;background:var(--chathead)}
+.chathead .nm{font-family:Poppins;font-weight:700;font-size:36px}
+.chathead .st{font-family:Inter;font-size:26px;color:var(--green);margin-top:2px}
+.msgs{flex:1;display:flex;flex-direction:column;justify-content:flex-end;gap:24px;padding:34px}
+.b{max-width:78%;padding:24px 30px;border-radius:22px;font-family:Inter;font-size:31px;line-height:1.35}
+.b.in{align-self:flex-start;background:var(--bubble);color:#EAF0F2}
+.b.out{align-self:flex-end;background:var(--green-deep);color:#fff}
+.b.out.bright{background:var(--green)}
+.file{display:flex;align-items:center;gap:22px;padding:24px 28px;border-radius:24px;max-width:86%}
+.file.out{align-self:flex-end;background:var(--green-deep)}
+.file.in{align-self:flex-start;background:var(--bubble)}
+.tag{flex:0 0 auto;width:74px;height:74px;border-radius:18px;background:rgba(255,255,255,.14);
+  display:grid;place-items:center;font-family:Poppins;font-weight:800;font-size:22px;color:#fff}
+.file .fn{font-family:Poppins;font-weight:700;font-size:31px}
+.file .fm{font-family:Inter;font-size:26px;color:rgba(255,255,255,.72);margin-top:6px}
+.composer{display:flex;align-items:center;gap:22px;padding:26px 30px 34px}
+.composer .inp{flex:1;height:96px;border-radius:999px;background:rgba(255,255,255,.06);
+  display:flex;align-items:center;padding:0 34px;font-family:Inter;font-size:31px;color:var(--muted-2)}
+.composer .send{width:96px;height:96px;border-radius:50%;background:var(--green);display:grid;place-items:center}
+
+/* contato salvo */
+.contact{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:0 56px;text-align:center}
+.contact .nm{font-family:Poppins;font-weight:800;font-size:52px;margin-top:36px}
+.contact .ph{font-family:Inter;font-size:38px;color:var(--muted);margin-top:14px}
+.contact .btn{margin-top:50px;width:100%;padding:34px;border-radius:22px;background:#0E2A1C;
+  border:1px solid rgba(37,211,102,.45);font-family:Poppins;font-weight:700;font-size:40px;color:var(--green)}
+.contact .hint{font-family:Inter;font-size:29px;line-height:1.4;color:var(--muted-2);margin-top:36px}
+
+/* lockscreen */
+.lock{flex:1;display:flex;flex-direction:column;align-items:center;padding:80px 34px 34px}
+.lock .clock{font-family:Poppins;font-weight:700;font-size:150px;letter-spacing:-.03em;line-height:1}
+.lock .date{font-family:Inter;font-size:34px;color:var(--muted);margin-top:14px}
+.notif{width:100%;background:rgba(255,255,255,.07);border-radius:32px;padding:32px;margin-top:80px}
+.notif .app{display:flex;align-items:center;gap:16px;font-family:Inter;font-size:28px;color:#B9C3CC;letter-spacing:.04em}
+.notif .txt{font-family:Poppins;font-weight:700;font-size:35px;line-height:1.35;margin-top:20px}
+.acts{display:flex;gap:22px;margin-top:32px;width:100%}
+.acts .a{flex:1;text-align:center;padding:26px 16px;border-radius:999px;font-family:Poppins;font-weight:700;font-size:30px;white-space:nowrap}
+.acts .a.p{background:var(--green);color:#08130D}
+.acts .a.s{border:1px solid rgba(37,211,102,.5);color:var(--green)}
+
+/* card de documento + chips */
+.docwrap{display:flex;flex-direction:column;gap:34px;width:100%}
+.doccard{background:var(--card);border:1px solid var(--line);border-radius:34px;padding:44px}
+.doccard .top{display:flex;align-items:center;gap:26px}
+.doccard .top .tag{width:82px;height:82px;border-radius:20px;background:#123024;color:var(--green);font-size:24px}
+.doccard .top .fn{font-family:Poppins;font-weight:700;font-size:41px}
+.kv{display:flex;justify-content:space-between;align-items:baseline;margin-top:26px;font-size:33px}
+.kv .k{font-family:Inter;color:var(--muted)}
+.kv .v{font-family:Poppins;font-weight:700}
+.chips{display:flex;flex-direction:column;gap:22px}
+.chip{display:flex;align-items:center;justify-content:space-between;background:var(--card);
+  border:1px solid var(--line);border-radius:26px;padding:32px 40px;font-family:Poppins;font-weight:700;font-size:42px}
+.chip.on{background:var(--bg-green);border-color:rgba(37,211,102,.5)}
+.chip .plus{font-family:Poppins;font-weight:700;font-size:32px;color:var(--green)}
+
+/* navegador */
+.browser{width:100%;background:#0F1720;border:1px solid var(--line);border-radius:34px;overflow:hidden}
+.bar{display:flex;align-items:center;gap:20px;padding:28px 30px;background:#131C26}
+.dots{display:flex;gap:14px}.dots i{width:22px;height:22px;border-radius:50%;display:block}
+.url{flex:1;height:72px;border-radius:18px;background:rgba(255,255,255,.05);display:flex;align-items:center;
+  padding:0 28px;font-family:Inter;font-size:30px;color:#C3CCD4}
+.tabs{display:flex;gap:12px;padding:26px 26px 0;flex-wrap:nowrap}
+.tabs span{font-family:Inter;font-size:27px;color:var(--muted);padding:13px 20px;border-radius:14px;white-space:nowrap}
+.tabs span.on{background:rgba(255,255,255,.09);color:#fff;font-weight:600}
+.search{margin:24px 26px 0;height:80px;border-radius:20px;background:rgba(255,255,255,.05);
+  display:flex;align-items:center;padding:0 28px;font-family:Inter;font-size:29px;color:var(--muted-2)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;padding:24px 26px 30px}
+.gitem{background:var(--card-2);border:1px solid var(--line);border-radius:24px;padding:26px}
+.gitem .tag{width:62px;height:62px;border-radius:16px;background:#123024;color:var(--green);font-size:20px}
+.gitem .t{font-family:Poppins;font-weight:700;font-size:30px;margin-top:20px;letter-spacing:-.01em}
+.gitem .m{font-family:Inter;font-size:25px;color:var(--muted);margin-top:8px}
+
+/* final */
+.final{align-items:center;justify-content:center;text-align:center}
+.final h1{font-size:96px;line-height:1.06}
+.final .sub{font-family:Inter;font-size:42px;color:var(--muted);margin-top:34px}
+.cta{margin-top:64px;display:inline-block;padding:40px 68px;border-radius:999px;background:var(--green);
+  color:#07130C;font-family:Poppins;font-weight:800;font-size:46px}
+.foot{font-family:Inter;font-size:32px;color:var(--muted-2);margin-top:46px}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="mark" viewBox="0 0 100 100">
+    <rect x="0" y="0" width="100" height="100" rx="28" fill="#31B164"/>
+    <g fill="none" stroke="#fff" stroke-linejoin="round" stroke-linecap="round">
+      <g stroke-width="4.2" transform="translate(2,0)">
+        <rect x="56" y="21.5" width="19" height="24" rx="3.2" transform="rotate(-16 65.5 33.5)"/>
+        <rect x="63" y="24" width="19" height="24" rx="3.2" transform="rotate(10 72.5 36)"/>
+      </g>
+      <path stroke-width="5" d="M26 34.5h20l6.5 6.5H74a4 4 0 0 1 4 4v26a4 4 0 0 1-4 4H45l-8.5 9.5V75H26a4 4 0 0 1-4-4V38.5a4 4 0 0 1 4-4z"/>
+    </g>
+  </symbol>
+  <symbol id="send" viewBox="0 0 24 24"><path d="M3.4 20.4 21 12 3.4 3.6 3.4 10l12 2-12 2z" fill="#07130C"/></symbol>
+</svg>
+
+<!-- ============ 01 CAPA ============ -->
+<section class="slide" id="s01"><div class="inner cover">
+  <div class="glow"><div class="plate"><svg class="ico" width="150" height="150"><use href="#mark"/></svg></div></div>
+  <div class="title">Arquivo<i>Zap</i></div>
+  <div class="sub">Documentos pelo WhatsApp</div>
+  <div class="pill">Bem-vindo. Vamos configurar sua conta.</div>
+</div></section>
+
+<!-- ============ 02 GUIA ============ -->
+<section class="slide" id="s02"><div class="inner">
+  <div class="head">
+    <div class="brand"><svg class="ico" width="52" height="52"><use href="#mark"/></svg><span class="word">Arquivo<i>Zap</i></span></div>
+    <div class="count"><b>02</b> / 12</div>
+  </div>
+  <div class="copy">
+    <div class="eyebrow">GUIA DE INÍCIO</div>
+    <h1>Quatro passos e sua<br>bagunça acaba.</h1>
+  </div>
+  <div class="stage"><div class="rows">
+    <div class="row on"><div class="n">1</div><div><div class="t">Salvar o número</div><div class="s">(11) 93622-8701 na sua agenda</div></div></div>
+    <div class="row"><div class="n">2</div><div><div class="t">Mandar um “oi”</div><div class="s">O bot se apresenta na hora</div></div></div>
+    <div class="row"><div class="n">3</div><div><div class="t">Enviar documentos</div><div class="s">Encaminhe e pode esquecer</div></div></div>
+    <div class="row"><div class="n">4</div><div><div class="t">Encontrar em segundos</div><div class="s">Busque por texto ou por áudio</div></div></div>
+  </div></div>
+</div></section>
+
+<!-- ============ 03 PASSO 1 ============ -->
+<section class="slide" id="s03"><div class="inner">
+  <div class="head">
+    <div class="brand"><svg class="ico" width="52" height="52"><use href="#mark"/></svg><span class="word">Arquivo<i>Zap</i></span></div>
+    <div class="count"><b>03</b> / 12</div>
+  </div>
+  <div class="copy">
+    <div class="eyebrow">PASSO 1</div>
+    <h1>Salve o número<br>na sua agenda.</h1>
+    <p class="lead">Salve (11) 93622-8701 ou abra wa.me/5511936228701. Com o contato na agenda, a conversa fica sempre fácil de achar.</p>
+  </div>
+  <div class="stage"><div class="phone"><div class="screen">
+    <div class="contact">
+      <svg class="ico" width="128" height="128"><use href="#mark"/></svg>
+      <div class="nm">ArquivoZap</div>
+      <div class="ph">(11) 93622-8701</div>
+      <div class="btn">Contato salvo</div>
+      <div class="hint">Agora é só abrir a conversa sempre<br>que precisar guardar algo.</div>
+    </div>
+  </div></div></div>
+</div></section>
+
+<!-- ============ 04 PASSO 2 ============ -->
+<section class="slide" id="s04"><div class="inner">
+  <div class="head">
+    <div class="brand"><svg class="ico" width="52" height="52"><use href="#mark"/></svg><span class="word">Arquivo<i>Zap</i></span></div>
+    <div class="count"><b>04</b> / 12</div>
+  </div>
+  <div class="copy">
+    <div class="eyebrow">PASSO 2</div>
+    <h1>Mande um “oi”.</h1>
+    <p class="lead">O bot se apresenta e já fica pronto para receber. Sem cadastro, sem senha, sem instalar aplicativo.</p>
+  </div>
+  <div class="stage"><div class="phone"><div class="screen">
+    <div class="chathead"><svg class="ico" width="66" height="66"><use href="#mark"/></svg>
+      <div><div class="nm">ArquivoZap</div><div class="st">online</div></div></div>
+    <div class="msgs">
+      <div class="b out">Oi</div>
+      <div class="b in">Olá! Eu sou o ArquivoZap. Me mande uma foto, PDF ou qualquer documento: eu leio, classifico e guardo pra você.</div>
+      <div class="b in">No teste grátis são 3 documentos e 3 buscas por mês. Quer começar?</div>
+    </div>
+    <div class="composer"><div class="inp">Mensagem</div><div class="send"><svg width="46" height="46"><use href="#send"/></svg></div></div>
+  </div></div></div>
+</div></section>
+
+<!-- ============ 05 PASSO 3 ============ -->
+<section class="slide" id="s05"><div class="inner">
+  <div class="head">
+    <div class="brand"><svg class="ico" width="52" height="52"><use href="#mark"/></svg><span class="word">Arquivo<i>Zap</i></span></div>
+    <div class="count"><b>05</b> / 12</div>
+  </div>
+  <div class="copy">
+    <div class="eyebrow">PASSO 3</div>
+    <h1>Encaminhe. Só isso.</h1>
+    <p class="lead">Foto, PDF, Word ou Excel. Encaminhe de outra conversa ou tire uma foto — pode mandar vários de uma vez, o bot processa todos.</p>
+  </div>
+  <div class="stage"><div class="phone"><div class="screen">
+    <div class="chathead"><svg class="ico" width="66" height="66"><use href="#mark"/></svg>
+      <div><div class="nm">ArquivoZap</div><div class="st">online</div></div></div>
+    <div class="msgs">
+      <div class="file out"><div class="tag">PDF</div><div><div class="fn">boleto-energia-maio.pdf</div><div class="fm">1 página · 212 KB</div></div></div>
+      <div class="b in">Peguei! Boleto de energia, R$ 187,40, vence em 20/05. Já agendei o alerta e te mando a linha digitável.</div>
+      <div class="file out"><div class="tag">PDF</div><div><div class="fn">contrato-cliente.pdf</div><div class="fm">6 páginas · 1,1 MB</div></div></div>
+    </div>
+    <div class="composer"><div class="inp">Mensagem</div><div class="send"><svg width="46" height="46"><use href="#send"/></svg></div></div>
+  </div></div></div>
+</div></section>
+
+<!-- ============ 06 BASTIDORES ============ -->
+<section class="slide" id="s06"><div class="inner">
+  <div class="head">
+    <div class="brand"><svg class="ico" width="52" height="52"><use href="#mark"/></svg><span class="word">Arquivo<i>Zap</i></span></div>
+    <div class="count"><b>06</b> / 12</div>
+  </div>
+  <div class="copy">
+    <div class="eyebrow">NOS BASTIDORES</div>
+    <h1>A leitura é<br>automática.</h1>
+    <p class="lead">A IA lê o documento e entende o que é, de quem veio, quanto custa e quando vence. São 19 categorias automáticas — e se ela errar, você responde a categoria certa e ela aprende.</p>
+  </div>
+  <div class="stage"><div class="docwrap">
+    <div class="doccard">
+      <div class="top"><div class="tag">PDF</div><div class="fn">boleto-energia-maio.pdf</div></div>
+      <div class="kv"><span class="k">Tipo</span><span class="v">Boleto</span></div>
+      <div class="kv"><span class="k">Emissor</span><span class="v">Companhia de Energia</span></div>
+      <div class="kv"><span class="k">Valor</span><span class="v">R$ 187,40</span></div>
+      <div class="kv"><span class="k">Vencimento</span><span class="v">20/05/2026</span></div>
+    </div>
+    <div class="chips">
+      <div class="chip on"><span>Boleto</span><span class="plus">+1</span></div>
+      <div class="chip"><span>Conta</span></div>
+      <div class="chip"><span>Contrato</span></div>
+      <div class="chip"><span>Exame</span></div>
+    </div>
+  </div></div>
+</div></section>
+
+<!-- ============ 07 DIA A DIA ============ -->
+<section class="slide" id="s07"><div class="inner">
+  <div class="head">
+    <div class="brand"><svg class="ico" width="52" height="52"><use href="#mark"/></svg><span class="word">Arquivo<i>Zap</i></span></div>
+    <div class="count"><b>07</b> / 12</div>
+  </div>
+  <div class="copy">
+    <div class="eyebrow">NO DIA A DIA</div>
+    <h1>Peça com as<br>suas palavras.</h1>
+    <p class="lead">A busca entende o sentido: não precisa das palavras exatas nem do nome do arquivo. Nos planos pagos, dá para buscar mandando um áudio.</p>
+  </div>
+  <div class="stage"><div class="phone"><div class="screen">
+    <div class="chathead"><svg class="ico" width="66" height="66"><use href="#mark"/></svg>
+      <div><div class="nm">ArquivoZap</div><div class="st">online</div></div></div>
+    <div class="msgs">
+      <div class="b out">acha o boleto da luz de maio</div>
+      <div class="file in"><div class="tag">PDF</div><div><div class="fn">boleto-energia-maio.pdf</div><div class="fm">Boleto · R$ 187,40 · vence 20/05</div></div></div>
+    </div>
+    <div class="composer"><div class="inp">Mensagem</div><div class="send"><svg width="46" height="46"><use href="#send"/></svg></div></div>
+  </div></div></div>
+</div></section>
+
+<!-- ============ 08 SEM SUSTO ============ -->
+<section class="slide" id="s08"><div class="inner">
+  <div class="head">
+    <div class="brand"><svg class="ico" width="52" height="52"><use href="#mark"/></svg><span class="word">Arquivo<i>Zap</i></span></div>
+    <div class="count"><b>08</b> / 12</div>
+  </div>
+  <div class="copy">
+    <div class="eyebrow">SEM SUSTO</div>
+    <h1>Avisamos antes<br>de vencer.</h1>
+    <p class="lead">Boletos e contas: aviso 3 dias antes e no dia do vencimento. IPVA, CRLV, seguro e passaporte têm prazos próprios.</p>
+  </div>
+  <div class="stage"><div class="phone"><div class="screen">
+    <div class="lock">
+      <div class="clock">19:04</div>
+      <div class="date">domingo, 17 de maio</div>
+      <div class="notif">
+        <div class="app"><svg class="ico" width="34" height="34"><use href="#mark"/></svg> ARQUIVOZAP · agora</div>
+        <div class="txt">Seu boleto de energia vence em 3 dias — R$ 187,40. Quer a linha digitável?</div>
+      </div>
+      <div class="acts"><div class="a p">Mandar boleto</div><div class="a s">Já paguei</div></div>
+    </div>
+  </div></div></div>
+</div></section>
+
+<!-- ============ 09 BÔNUS ============ -->
+<section class="slide" id="s09"><div class="inner">
+  <div class="head">
+    <div class="brand"><svg class="ico" width="52" height="52"><use href="#mark"/></svg><span class="word">Arquivo<i>Zap</i></span></div>
+    <div class="count"><b>09</b> / 12</div>
+  </div>
+  <div class="copy">
+    <div class="eyebrow">BÔNUS</div>
+    <h1>Tudo também<br>no navegador.</h1>
+    <p class="lead">Digite “link” na conversa e o bot manda seu acesso pessoal ao arquivozap.com.br/dashboard. Sem baixar aplicativo.</p>
+  </div>
+  <div class="stage"><div class="browser">
+    <div class="bar">
+      <div class="dots"><i style="background:#F04A43"></i><i style="background:#F5BD33"></i><i style="background:#31C24D"></i></div>
+      <div class="url">arquivozap.com.br/dashboard</div>
+    </div>
+    <div class="tabs"><span class="on">Visão geral</span><span>Documentos</span><span>Gastos</span><span>Alertas</span><span>Categorias</span></div>
+    <div class="search">Buscar por “conta de luz”, “contrato do Souza”…</div>
+    <div class="grid">
+      <div class="gitem"><div class="tag" style="display:grid;place-items:center;font-family:Poppins;font-weight:800">PDF</div><div class="t">Boleto de energia</div><div class="m">Boleto · 20/05 · R$ 187,40</div></div>
+      <div class="gitem"><div class="tag" style="display:grid;place-items:center;font-family:Poppins;font-weight:800">PDF</div><div class="t">Contrato — Souza</div><div class="m">Contrato · 12/05</div></div>
+      <div class="gitem"><div class="tag" style="display:grid;place-items:center;font-family:Poppins;font-weight:800">PDF</div><div class="t">Exame de sangue</div><div class="m">Saúde · 09/05</div></div>
+      <div class="gitem"><div class="tag" style="display:grid;place-items:center;font-family:Poppins;font-weight:800">PDF</div><div class="t">Comprovante de aluguel</div><div class="m">Comprovante · 05/05</div></div>
+      <div class="gitem"><div class="tag" style="display:grid;place-items:center;font-family:Poppins;font-weight:800">PDF</div><div class="t">Nota fiscal 1042</div><div class="m">Fiscal · 02/05</div></div>
+      <div class="gitem"><div class="tag" style="display:grid;place-items:center;font-family:Poppins;font-weight:800">PDF</div><div class="t">Boleto de internet</div><div class="m">Boleto · 28/04 · pago</div></div>
+    </div>
+  </div></div>
+</div></section>
+
+<!-- ============ 10 VÁ ALÉM ============ -->
+<section class="slide" id="s10"><div class="inner">
+  <div class="head">
+    <div class="brand"><svg class="ico" width="52" height="52"><use href="#mark"/></svg><span class="word">Arquivo<i>Zap</i></span></div>
+    <div class="count"><b>10</b> / 12</div>
+  </div>
+  <div class="copy">
+    <div class="eyebrow">VÁ ALÉM</div>
+    <h1>Três comandos<br>que valem o dia.</h1>
+  </div>
+  <div class="stage"><div class="cards">
+    <div class="cmd"><h3>“resumo”</h3><p>Gastos do mês, quantidade de documentos e os próximos vencimentos em uma mensagem.</p></div>
+    <div class="cmd"><h3>“comparar contas”</h3><p>Mostra a variação de luz, água, gás e internet e aponta aumentos fora do normal.</p></div>
+    <div class="cmd"><h3>“verificar golpe”</h3><p>Boleto ou mensagem suspeita? Encaminhe e o bot analisa antes de você pagar.</p></div>
+  </div></div>
+</div></section>
+
+<!-- ============ 11 SE TRAVAR ============ -->
+<section class="slide" id="s11"><div class="inner">
+  <div class="head">
+    <div class="brand"><svg class="ico" width="52" height="52"><use href="#mark"/></svg><span class="word">Arquivo<i>Zap</i></span></div>
+    <div class="count"><b>11</b> / 12</div>
+  </div>
+  <div class="copy">
+    <div class="eyebrow">SE TRAVAR</div>
+    <h1>Escreva “suporte”<br>na conversa.</h1>
+    <p class="lead">Atendimento humano ali mesmo. Prefere outro canal? (11) 92694-7820 ou contato@arquivozap.com.br</p>
+  </div>
+  <div class="stage"><div class="phone"><div class="screen">
+    <div class="chathead"><svg class="ico" width="66" height="66"><use href="#mark"/></svg>
+      <div><div class="nm">ArquivoZap</div><div class="st">online</div></div></div>
+    <div class="msgs">
+      <div class="b out">suporte</div>
+      <div class="b in">Já estou chamando um atendente humano pra você. Se preferir, fale direto no (11) 92694-7820.</div>
+    </div>
+    <div class="composer"><div class="inp">Mensagem</div><div class="send"><svg width="46" height="46"><use href="#send"/></svg></div></div>
+  </div></div></div>
+</div></section>
+
+<!-- ============ 12 FINAL ============ -->
+<section class="slide" id="s12"><div class="inner final">
+  <div class="glow" style="margin-bottom:64px"><svg class="ico" width="180" height="180"><use href="#mark"/></svg></div>
+  <h1>Pronto. Sua conta<br>já está de pé.</h1>
+  <div class="sub">Abra a conversa e mande o<br>primeiro documento agora.</div>
+  <div class="cta">Mandar um oi no WhatsApp</div>
+  <div class="foot">(11) 93622-8701 · arquivozap.com.br/dashboard</div>
+</div></section>
+
+<script>
+window.__fit=function(){
+  document.querySelectorAll('.slide .stage').forEach(function(st){
+    var c=st.firstElementChild; if(!c) return;
+    c.style.transform='';
+    var avail=st.clientHeight, nat=c.offsetHeight;
+    if(nat>avail+0.5){
+      var k=avail/nat;
+      c.style.transformOrigin='center center';
+      c.style.transform='scale('+k+')';
+    }
+  });
+};
+</script>
+</body></html>
