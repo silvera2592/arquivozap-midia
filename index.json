@@ -334,5 +334,18 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "aquele-pdf-sumido-no-zap": {
+    "slug": "aquele-pdf-sumido-no-zap",
+    "titulo": "Aquele PDF sumido no zap",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-chat.jpg",
+      "03-lista.jpg",
+      "04-destaque.jpg",
+      "05-passos.jpg",
+      "06-final.jpg"
+    ]
   }
 }
