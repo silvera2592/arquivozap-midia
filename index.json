@@ -347,5 +347,15 @@
       "05-destaque.jpg",
       "06-final.jpg"
     ]
+  },
+  "a-gaveta-virou-whatsapp-stories": {
+    "slug": "a-gaveta-virou-whatsapp-stories",
+    "titulo": "A gaveta da família virou WhatsApp — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
