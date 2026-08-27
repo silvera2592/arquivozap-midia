@@ -334,5 +334,18 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "a-gaveta-virou-whatsapp": {
+    "slug": "a-gaveta-virou-whatsapp",
+    "titulo": "A gaveta da família virou WhatsApp",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-chat.jpg",
+      "04-lista.jpg",
+      "05-destaque.jpg",
+      "06-final.jpg"
+    ]
   }
 }
