@@ -381,5 +381,19 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "voce-caiu-na-malha-fina-do-ir": {
+    "slug": "voce-caiu-na-malha-fina-do-ir",
+    "titulo": "Você caiu na malha fina do IR",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-lista.jpg",
+      "04-passos.jpg",
+      "05-destaque.jpg",
+      "06-lista.jpg",
+      "07-final.jpg"
+    ]
   }
 }
