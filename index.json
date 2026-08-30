@@ -405,5 +405,19 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "inventario-com-herdeiro-menor-nao-trava-mais": {
+    "slug": "inventario-com-herdeiro-menor-nao-trava-mais",
+    "titulo": "Inventário com herdeiro menor não trava mais",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-lista.jpg",
+      "04-passos.jpg",
+      "05-destaque.jpg",
+      "06-lista.jpg",
+      "07-final.jpg"
+    ]
   }
 }
