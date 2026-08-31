@@ -442,5 +442,15 @@
       "05-chat.jpg",
       "06-final.jpg"
     ]
+  },
+  "aquele-rg-que-so-existe-em-foto-tremida-stories": {
+    "slug": "aquele-rg-que-so-existe-em-foto-tremida-stories",
+    "titulo": "Aquele RG que só existe em foto tremida — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
