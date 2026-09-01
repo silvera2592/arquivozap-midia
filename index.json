@@ -452,5 +452,19 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "a-carteira-de-identidade-nacional-chega-para-valer": {
+    "slug": "a-carteira-de-identidade-nacional-chega-para-valer",
+    "titulo": "A Carteira de Identidade Nacional chega para valer",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-lista.jpg",
+      "04-passos.jpg",
+      "05-destaque.jpg",
+      "06-lista.jpg",
+      "07-final.jpg"
+    ]
   }
 }
