@@ -466,5 +466,15 @@
       "06-lista.jpg",
       "07-final.jpg"
     ]
+  },
+  "a-carteira-de-identidade-nacional-chega-para-valer-stories": {
+    "slug": "a-carteira-de-identidade-nacional-chega-para-valer-stories",
+    "titulo": "A Carteira de Identidade Nacional chega para valer — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
