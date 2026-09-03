@@ -500,5 +500,19 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "sua-certidao-venceu": {
+    "slug": "sua-certidao-venceu",
+    "titulo": "Sua certidão venceu",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-lista.jpg",
+      "04-passos.jpg",
+      "05-destaque.jpg",
+      "06-lista.jpg",
+      "07-final.jpg"
+    ]
   }
 }
