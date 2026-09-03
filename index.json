@@ -514,5 +514,15 @@
       "06-lista.jpg",
       "07-final.jpg"
     ]
+  },
+  "sua-certidao-venceu-stories": {
+    "slug": "sua-certidao-venceu-stories",
+    "titulo": "Sua certidão venceu — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
