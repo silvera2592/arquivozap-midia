@@ -524,5 +524,18 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "gov-br-reune-13-certidoes-em-um-atalho-novo": {
+    "slug": "gov-br-reune-13-certidoes-em-um-atalho-novo",
+    "titulo": "gov.br reúne 13 certidões em um atalho novo",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-lista.jpg",
+      "04-passos.jpg",
+      "05-destaque.jpg",
+      "06-final.jpg"
+    ]
   }
 }
