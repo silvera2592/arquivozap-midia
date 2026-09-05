@@ -547,5 +547,18 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "setembro-e-o-mes-que-os-prazos-vencem-juntos": {
+    "slug": "setembro-e-o-mes-que-os-prazos-vencem-juntos",
+    "titulo": "Setembro é o mês que os prazos vencem juntos",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-chat.jpg",
+      "04-destaque.jpg",
+      "05-lista.jpg",
+      "06-final.jpg"
+    ]
   }
 }
