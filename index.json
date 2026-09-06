@@ -570,5 +570,18 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "seu-titulo-pode-travar-tudo": {
+    "slug": "seu-titulo-pode-travar-tudo",
+    "titulo": "Seu título pode travar tudo",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-passos.jpg",
+      "04-lista.jpg",
+      "05-destaque.jpg",
+      "06-final.jpg"
+    ]
   }
 }
