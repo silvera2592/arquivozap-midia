@@ -583,5 +583,15 @@
       "05-destaque.jpg",
       "06-final.jpg"
     ]
+  },
+  "seu-titulo-pode-travar-tudo-stories": {
+    "slug": "seu-titulo-pode-travar-tudo-stories",
+    "titulo": "Seu título pode travar tudo — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
