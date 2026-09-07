@@ -606,5 +606,15 @@
       "05-destaque.jpg",
       "06-final.jpg"
     ]
+  },
+  "o-arquivo-vivo-nao-pode-tirar-ferias-stories": {
+    "slug": "o-arquivo-vivo-nao-pode-tirar-ferias-stories",
+    "titulo": "O arquivo vivo não pode tirar férias — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
