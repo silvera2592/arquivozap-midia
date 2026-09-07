@@ -593,5 +593,18 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "o-arquivo-vivo-nao-pode-tirar-ferias": {
+    "slug": "o-arquivo-vivo-nao-pode-tirar-ferias",
+    "titulo": "O arquivo vivo não pode tirar férias",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-chat.jpg",
+      "04-lista.jpg",
+      "05-destaque.jpg",
+      "06-final.jpg"
+    ]
   }
 }
