@@ -616,5 +616,18 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "sua-certidao-agora-sai-pela-internet": {
+    "slug": "sua-certidao-agora-sai-pela-internet",
+    "titulo": "Sua certidão agora sai pela internet",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-passos.jpg",
+      "03-lista.jpg",
+      "04-lista.jpg",
+      "05-destaque.jpg",
+      "06-final.jpg"
+    ]
   }
 }
