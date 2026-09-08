@@ -629,5 +629,15 @@
       "05-destaque.jpg",
       "06-final.jpg"
     ]
+  },
+  "sua-certidao-agora-sai-pela-internet-stories": {
+    "slug": "sua-certidao-agora-sai-pela-internet-stories",
+    "titulo": "Sua certidão agora sai pela internet — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
