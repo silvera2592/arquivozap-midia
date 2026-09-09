@@ -639,5 +639,19 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "cadunico-atualizado-em-junho-de-2024-tem-prazo-amanha": {
+    "slug": "cadunico-atualizado-em-junho-de-2024-tem-prazo-amanha",
+    "titulo": "CadÚnico atualizado em junho de 2024 tem prazo amanhã",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-passos.jpg",
+      "04-lista.jpg",
+      "05-destaque.jpg",
+      "06-lista.jpg",
+      "07-final.jpg"
+    ]
   }
 }
