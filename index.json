@@ -663,5 +663,18 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "enem-2026-mudou-a-regra-do-documento-perdido": {
+    "slug": "enem-2026-mudou-a-regra-do-documento-perdido",
+    "titulo": "Enem 2026 mudou a regra do documento perdido",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-destaque.jpg",
+      "04-lista.jpg",
+      "05-lista.jpg",
+      "06-final.jpg"
+    ]
   }
 }
