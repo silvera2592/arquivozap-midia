@@ -699,5 +699,15 @@
       "05-lista.jpg",
       "06-final.jpg"
     ]
+  },
+  "achou-o-ape-perdeu-pro-documento-stories": {
+    "slug": "achou-o-ape-perdeu-pro-documento-stories",
+    "titulo": "Achou o apê. Perdeu pro documento. — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
