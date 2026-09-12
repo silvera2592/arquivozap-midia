@@ -709,5 +709,18 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "o-cpf-do-seu-imovel-chegou": {
+    "slug": "o-cpf-do-seu-imovel-chegou",
+    "titulo": "O CPF do seu imóvel chegou",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-lista.jpg",
+      "04-destaque.jpg",
+      "05-destaque.jpg",
+      "06-final.jpg"
+    ]
   }
 }
