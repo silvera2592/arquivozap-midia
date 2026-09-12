@@ -722,5 +722,15 @@
       "05-destaque.jpg",
       "06-final.jpg"
     ]
+  },
+  "o-cpf-do-seu-imovel-chegou-stories": {
+    "slug": "o-cpf-do-seu-imovel-chegou-stories",
+    "titulo": "O CPF do seu imóvel chegou — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
