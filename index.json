@@ -745,5 +745,15 @@
       "05-destaque.jpg",
       "06-final.jpg"
     ]
+  },
+  "o-arquivozap-vai-virar-app-stories": {
+    "slug": "o-arquivozap-vai-virar-app-stories",
+    "titulo": "O ArquivoZap vai virar app — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
