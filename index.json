@@ -732,5 +732,18 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "o-arquivozap-vai-virar-app": {
+    "slug": "o-arquivozap-vai-virar-app",
+    "titulo": "O ArquivoZap vai virar app",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-lista.jpg",
+      "04-notificacao.jpg",
+      "05-destaque.jpg",
+      "06-final.jpg"
+    ]
   }
 }
