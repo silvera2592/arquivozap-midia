@@ -768,5 +768,15 @@
       "05-destaque.jpg",
       "06-final.jpg"
     ]
+  },
+  "cartorio-nao-pode-mais-travar-seu-inventario-com-essa-certidao-stories": {
+    "slug": "cartorio-nao-pode-mais-travar-seu-inventario-com-essa-certidao-stories",
+    "titulo": "O cartório não pode mais travar seu inventário com essa certidão — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
