@@ -792,5 +792,15 @@
       "06-destaque.jpg",
       "07-final.jpg"
     ]
+  },
+  "seu-rg-vencido-serve-para-votar-a-carteira-digital-nao-stories": {
+    "slug": "seu-rg-vencido-serve-para-votar-a-carteira-digital-nao-stories",
+    "titulo": "Seu RG vencido serve para votar, a carteira digital não — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
