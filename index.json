@@ -816,5 +816,15 @@
       "06-destaque.jpg",
       "07-final.jpg"
     ]
+  },
+  "cnh-e-acc-ganharam-nova-prorrogacao-stories": {
+    "slug": "cnh-e-acc-ganharam-nova-prorrogacao-stories",
+    "titulo": "CNH e ACC ganharam nova prorrogação — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
