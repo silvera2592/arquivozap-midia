@@ -839,5 +839,15 @@
       "05-lista.jpg",
       "06-final.jpg"
     ]
+  },
+  "comprovante-de-residencia-no-seu-nome-stories": {
+    "slug": "comprovante-de-residencia-no-seu-nome-stories",
+    "titulo": "Comprovante de residência no seu nome — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
