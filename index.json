@@ -826,5 +826,18 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "comprovante-de-residencia-no-seu-nome": {
+    "slug": "comprovante-de-residencia-no-seu-nome",
+    "titulo": "Comprovante de residência no seu nome",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-chat.jpg",
+      "03-lista.jpg",
+      "04-destaque.jpg",
+      "05-lista.jpg",
+      "06-final.jpg"
+    ]
   }
 }
