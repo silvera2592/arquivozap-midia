@@ -849,5 +849,18 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "carteira-de-trabalho-de-papel-prova-vinculo-antigo-no-inss": {
+    "slug": "carteira-de-trabalho-de-papel-prova-vinculo-antigo-no-inss",
+    "titulo": "A carteira de trabalho de papel prova vínculo antigo no INSS",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-lista.jpg",
+      "04-passos.jpg",
+      "05-destaque.jpg",
+      "06-final.jpg"
+    ]
   }
 }
