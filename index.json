@@ -872,5 +872,18 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "o-pro-ganhou-integracao-com-google-agenda-e-drive": {
+    "slug": "o-pro-ganhou-integracao-com-google-agenda-e-drive",
+    "titulo": "O plano Pro ganhou integração com Google Agenda e Google Drive",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-lista.jpg",
+      "04-notificacao.jpg",
+      "05-destaque.jpg",
+      "06-final.jpg"
+    ]
   }
 }
