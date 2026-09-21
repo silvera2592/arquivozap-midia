@@ -909,5 +909,15 @@
       "06-lista.jpg",
       "07-final.jpg"
     ]
+  },
+  "faltar-na-eleicao-tambem-tem-prazo-pra-resolver-stories": {
+    "slug": "faltar-na-eleicao-tambem-tem-prazo-pra-resolver-stories",
+    "titulo": "Faltar na eleição também tem prazo pra resolver — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
