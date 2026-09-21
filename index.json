@@ -895,5 +895,19 @@
       "02-destaque.jpg",
       "03-final.jpg"
     ]
+  },
+  "faltar-na-eleicao-tambem-tem-prazo-pra-resolver": {
+    "slug": "faltar-na-eleicao-tambem-tem-prazo-pra-resolver",
+    "titulo": "Faltar na eleição também tem prazo pra resolver",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-passos.jpg",
+      "03-passos.jpg",
+      "04-lista.jpg",
+      "05-destaque.jpg",
+      "06-lista.jpg",
+      "07-final.jpg"
+    ]
   }
 }
