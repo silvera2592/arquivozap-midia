@@ -919,5 +919,18 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "outubro-rosa-mudou-a-regra-da-mamografia": {
+    "slug": "outubro-rosa-mudou-a-regra-da-mamografia",
+    "titulo": "Outubro Rosa mudou a regra da mamografia",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-passos.jpg",
+      "04-lista.jpg",
+      "05-destaque.jpg",
+      "06-final.jpg"
+    ]
   }
 }
