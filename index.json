@@ -950,5 +950,13 @@
     "arquivos": [
       "01-reels.mp4"
     ]
+  },
+  "mae-larga-essa-gaveta": {
+    "slug": "mae-larga-essa-gaveta",
+    "titulo": "Mãe, larga essa gaveta",
+    "formato": "vertical",
+    "arquivos": [
+      "01-reels.mp4"
+    ]
   }
 }
