@@ -942,5 +942,13 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "dia-4-7h-mae-cade-meu-rg": {
+    "slug": "dia-4-7h-mae-cade-meu-rg",
+    "titulo": "Dia 4, 7h: mãe, cadê meu RG",
+    "formato": "vertical",
+    "arquivos": [
+      "01-reels.mp4"
+    ]
   }
 }
