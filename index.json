@@ -958,5 +958,19 @@
     "arquivos": [
       "01-reels.mp4"
     ]
+  },
+  "a-passagem-dela-pode-sair-de-graca": {
+    "slug": "a-passagem-dela-pode-sair-de-graca",
+    "titulo": "A passagem dela pode sair de graça",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-lista.jpg",
+      "04-lista.jpg",
+      "05-passos.jpg",
+      "06-passos.jpg",
+      "07-final.jpg"
+    ]
   }
 }
