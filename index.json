@@ -972,5 +972,15 @@
       "06-passos.jpg",
       "07-final.jpg"
     ]
+  },
+  "a-passagem-dela-pode-sair-de-graca-stories": {
+    "slug": "a-passagem-dela-pode-sair-de-graca-stories",
+    "titulo": "A passagem dela pode sair de graça — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
