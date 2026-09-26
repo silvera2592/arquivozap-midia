@@ -995,5 +995,15 @@
       "05-lista.jpg",
       "06-final.jpg"
     ]
+  },
+  "seu-cachorro-ou-gato-ja-tem-rg-stories": {
+    "slug": "seu-cachorro-ou-gato-ja-tem-rg-stories",
+    "titulo": "Seu cachorro ou gato já tem RG — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
