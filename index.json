@@ -982,5 +982,18 @@
       "02-lista.jpg",
       "03-texto.jpg"
     ]
+  },
+  "seu-cachorro-ou-gato-ja-tem-rg": {
+    "slug": "seu-cachorro-ou-gato-ja-tem-rg",
+    "titulo": "Seu cachorro ou gato já tem RG",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-lista.jpg",
+      "04-passos.jpg",
+      "05-lista.jpg",
+      "06-final.jpg"
+    ]
   }
 }
