@@ -1029,5 +1029,19 @@
       "02-lista.jpg",
       "03-texto.jpg"
     ]
+  },
+  "o-arquivozap-chegou-nas-lojas": {
+    "slug": "o-arquivozap-chegou-nas-lojas",
+    "titulo": "O ArquivoZap chegou nas lojas",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-lista.jpg",
+      "04-notificacao.jpg",
+      "05-passos.jpg",
+      "06-destaque.jpg",
+      "07-final.jpg"
+    ]
   }
 }
