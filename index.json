@@ -1053,5 +1053,13 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "ele-vai-com-a-vo-e-a-certidao": {
+    "slug": "ele-vai-com-a-vo-e-a-certidao",
+    "titulo": "Ele vai com a vó. E a certidão?",
+    "formato": "vertical",
+    "arquivos": [
+      "01-reels.mp4"
+    ]
   }
 }
