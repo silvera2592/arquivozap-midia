@@ -1061,5 +1061,19 @@
     "arquivos": [
       "01-reels.mp4"
     ]
+  },
+  "a-identidade-dele-vence-antes-da-sua": {
+    "slug": "a-identidade-dele-vence-antes-da-sua",
+    "titulo": "A identidade dele vence antes da sua",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-lista.jpg",
+      "04-destaque.jpg",
+      "05-passos.jpg",
+      "06-lista.jpg",
+      "07-final.jpg"
+    ]
   }
 }
