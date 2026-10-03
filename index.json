@@ -1099,5 +1099,16 @@
       "06-lista.jpg",
       "07-final.jpg"
     ]
+  },
+  "quem-decide-por-ela-no-hospital-stories": {
+    "slug": "quem-decide-por-ela-no-hospital-stories",
+    "titulo": "Quem decide por ela no hospital — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "02-lista.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
