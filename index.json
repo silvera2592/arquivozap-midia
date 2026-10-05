@@ -1109,5 +1109,19 @@
       "02-lista.jpg",
       "03-texto.jpg"
     ]
+  },
+  "a-casa-esta-no-nome-de-quem": {
+    "slug": "a-casa-esta-no-nome-de-quem",
+    "titulo": "A casa está no nome de quem",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-lista.jpg",
+      "04-passos.jpg",
+      "05-destaque.jpg",
+      "06-lista.jpg",
+      "07-final.jpg"
+    ]
   }
 }
