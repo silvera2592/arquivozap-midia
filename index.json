@@ -1133,5 +1133,13 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "a-maquina-parou-cade-a-nota": {
+    "slug": "a-maquina-parou-cade-a-nota",
+    "titulo": "A máquina parou. Cadê a nota?",
+    "formato": "vertical",
+    "arquivos": [
+      "01-reels.mp4"
+    ]
   }
 }
