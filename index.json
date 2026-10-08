@@ -1156,5 +1156,15 @@
       "07-destaque.jpg",
       "08-final.jpg"
     ]
+  },
+  "seu-pai-deixou-dinheiro-esquecido-stories": {
+    "slug": "seu-pai-deixou-dinheiro-esquecido-stories",
+    "titulo": "Seu pai deixou dinheiro esquecido — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
