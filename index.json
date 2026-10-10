@@ -1180,5 +1180,15 @@
       "06-destaque.jpg",
       "07-final.jpg"
     ]
+  },
+  "sua-mae-tem-a-identidade-nova-stories": {
+    "slug": "sua-mae-tem-a-identidade-nova-stories",
+    "titulo": "Sua mãe tem a identidade nova — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
