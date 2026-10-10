@@ -1166,5 +1166,19 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "sua-mae-tem-a-identidade-nova": {
+    "slug": "sua-mae-tem-a-identidade-nova",
+    "titulo": "Sua mãe tem a identidade nova",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-passos.jpg",
+      "04-lista.jpg",
+      "05-passos.jpg",
+      "06-destaque.jpg",
+      "07-final.jpg"
+    ]
   }
 }
