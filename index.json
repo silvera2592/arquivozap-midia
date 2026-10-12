@@ -1204,5 +1204,15 @@
       "06-destaque.jpg",
       "07-final.jpg"
     ]
+  },
+  "ela-teve-cancer-o-ir-dela-pode-parar-stories": {
+    "slug": "ela-teve-cancer-o-ir-dela-pode-parar-stories",
+    "titulo": "Ela teve câncer? O IR dela pode parar — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
