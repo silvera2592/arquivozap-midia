@@ -1214,5 +1214,13 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "mae-cade-minha-carteira-de-trabalho": {
+    "slug": "mae-cade-minha-carteira-de-trabalho",
+    "titulo": "Mãe, cadê minha carteira de trabalho?",
+    "formato": "vertical",
+    "arquivos": [
+      "01-reels.mp4"
+    ]
   }
 }
