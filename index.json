@@ -1236,5 +1236,15 @@
       "06-passos.jpg",
       "07-final.jpg"
     ]
+  },
+  "moram-juntos-e-no-papel-stories": {
+    "slug": "moram-juntos-e-no-papel-stories",
+    "titulo": "Moram juntos. E no papel? — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
