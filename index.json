@@ -1222,5 +1222,19 @@
     "arquivos": [
       "01-reels.mp4"
     ]
+  },
+  "moram-juntos-e-no-papel": {
+    "slug": "moram-juntos-e-no-papel",
+    "titulo": "Moram juntos. E no papel?",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-destaque.jpg",
+      "04-lista.jpg",
+      "05-destaque.jpg",
+      "06-passos.jpg",
+      "07-final.jpg"
+    ]
   }
 }
