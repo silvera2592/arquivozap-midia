@@ -1261,5 +1261,15 @@
       "07-lista.jpg",
       "08-final.jpg"
     ]
+  },
+  "pode-jogar-fora-depende-do-papel-stories": {
+    "slug": "pode-jogar-fora-depende-do-papel-stories",
+    "titulo": "Pode jogar fora? Depende do papel — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
