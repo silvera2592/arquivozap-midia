@@ -1246,5 +1246,20 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "pode-jogar-fora-depende-do-papel": {
+    "slug": "pode-jogar-fora-depende-do-papel",
+    "titulo": "Pode jogar fora? Depende do papel",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-lista.jpg",
+      "04-lista.jpg",
+      "05-lista.jpg",
+      "06-destaque.jpg",
+      "07-lista.jpg",
+      "08-final.jpg"
+    ]
   }
 }
