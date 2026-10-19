@@ -1285,5 +1285,15 @@
       "06-destaque.jpg",
       "07-final.jpg"
     ]
+  },
+  "mae-anota-o-protocolo-stories": {
+    "slug": "mae-anota-o-protocolo-stories",
+    "titulo": "Mãe, anota o protocolo — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
