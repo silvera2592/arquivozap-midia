@@ -1295,5 +1295,13 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "faltou-no-dia-4-domingo-nao-apaga": {
+    "slug": "faltou-no-dia-4-domingo-nao-apaga",
+    "titulo": "Faltou no dia 4? Votar não apaga",
+    "formato": "vertical",
+    "arquivos": [
+      "01-reels.mp4"
+    ]
   }
 }
