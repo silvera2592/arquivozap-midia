@@ -1317,5 +1317,15 @@
       "06-destaque.jpg",
       "07-final.jpg"
     ]
+  },
+  "enquanto-ele-ainda-assina-stories": {
+    "slug": "enquanto-ele-ainda-assina-stories",
+    "titulo": "Enquanto ele ainda assina — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
