@@ -1303,5 +1303,19 @@
     "arquivos": [
       "01-reels.mp4"
     ]
+  },
+  "enquanto-ele-ainda-assina": {
+    "slug": "enquanto-ele-ainda-assina",
+    "titulo": "Enquanto ele ainda assina",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-passos.jpg",
+      "04-destaque.jpg",
+      "05-lista.jpg",
+      "06-destaque.jpg",
+      "07-final.jpg"
+    ]
   }
 }
