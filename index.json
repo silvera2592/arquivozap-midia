@@ -1327,5 +1327,19 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "caiu-no-golpe-o-app-tem-um-botao": {
+    "slug": "caiu-no-golpe-o-app-tem-um-botao",
+    "titulo": "Caiu no golpe? O app tem um botão",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-destaque.jpg",
+      "04-passos.jpg",
+      "05-lista.jpg",
+      "06-destaque.jpg",
+      "07-final.jpg"
+    ]
   }
 }
