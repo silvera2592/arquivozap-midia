@@ -1351,5 +1351,19 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "a-escola-segurou-o-historico": {
+    "slug": "a-escola-segurou-o-historico",
+    "titulo": "A escola segurou o histórico",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-lista.jpg",
+      "04-passos.jpg",
+      "05-lista.jpg",
+      "06-destaque.jpg",
+      "07-final.jpg"
+    ]
   }
 }
