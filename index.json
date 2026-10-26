@@ -1365,5 +1365,15 @@
       "06-destaque.jpg",
       "07-final.jpg"
     ]
+  },
+  "a-escola-segurou-o-historico-stories": {
+    "slug": "a-escola-segurou-o-historico-stories",
+    "titulo": "A escola segurou o histórico — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
