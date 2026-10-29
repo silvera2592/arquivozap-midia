@@ -1383,5 +1383,20 @@
     "arquivos": [
       "01-reels.mp4"
     ]
+  },
+  "filho-seu-mei-ta-devendo": {
+    "slug": "filho-seu-mei-ta-devendo",
+    "titulo": "Filho, seu MEI tá devendo?",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-destaque.jpg",
+      "04-destaque.jpg",
+      "05-passos.jpg",
+      "06-destaque.jpg",
+      "07-lista.jpg",
+      "08-final.jpg"
+    ]
   }
 }
