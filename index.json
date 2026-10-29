@@ -1398,5 +1398,15 @@
       "07-lista.jpg",
       "08-final.jpg"
     ]
+  },
+  "filho-seu-mei-ta-devendo-stories": {
+    "slug": "filho-seu-mei-ta-devendo-stories",
+    "titulo": "Filho, seu MEI tá devendo? — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
