@@ -1478,5 +1478,18 @@
       "05-destaque.jpg",
       "06-final.jpg"
     ]
+  },
+  "uk-self-assessment-31-january": {
+    "slug": "uk-self-assessment-31-january",
+    "titulo": "Self Assessment: 31 January",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-passos.jpg",
+      "03-lista.jpg",
+      "04-destaque.jpg",
+      "05-destaque.jpg",
+      "06-final.jpg"
+    ]
   }
 }
