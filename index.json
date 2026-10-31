@@ -1505,5 +1505,15 @@
       "06-destaque.jpg",
       "07-final.jpg"
     ]
+  },
+  "holerite-o-patrao-e-voce-stories": {
+    "slug": "holerite-o-patrao-e-voce-stories",
+    "titulo": "Holerite? O patrão é você — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
