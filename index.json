@@ -1464,5 +1464,19 @@
       "07-destaque.jpg",
       "08-final.jpg"
     ]
+  },
+  "uk-proof-of-address": {
+    "slug": "uk-proof-of-address",
+    "titulo": "Proof of address: what counts",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-lista.jpg",
+      "04-destaque.jpg",
+      "04-lista.jpg",
+      "05-destaque.jpg",
+      "06-final.jpg"
+    ]
   }
 }
