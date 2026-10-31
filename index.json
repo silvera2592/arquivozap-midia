@@ -1423,5 +1423,18 @@
       "07-destaque.jpg",
       "08-final.jpg"
     ]
+  },
+  "mx-tu-curp-dice-certificada": {
+    "slug": "mx-tu-curp-dice-certificada",
+    "titulo": "¿Tu CURP dice certificada?",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-passos.jpg",
+      "03-destaque.jpg",
+      "04-destaque.jpg",
+      "05-lista.jpg",
+      "06-final.jpg"
+    ]
   }
 }
