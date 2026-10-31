@@ -1436,5 +1436,18 @@
       "05-lista.jpg",
       "06-final.jpg"
     ]
+  },
+  "mx-tu-acta-de-nacimiento-vence": {
+    "slug": "mx-tu-acta-de-nacimiento-vence",
+    "titulo": "¿Tu acta de nacimiento vence?",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-lista.jpg",
+      "04-passos.jpg",
+      "05-destaque.jpg",
+      "06-final.jpg"
+    ]
   }
 }
