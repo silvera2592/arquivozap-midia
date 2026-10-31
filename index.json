@@ -1408,5 +1408,20 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "mx-asi-funciona-arquivozap": {
+    "slug": "mx-asi-funciona-arquivozap",
+    "titulo": "Así funciona ArquivoZap",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-passos.jpg",
+      "03-chat.jpg",
+      "04-chat.jpg",
+      "05-chat.jpg",
+      "06-lista.jpg",
+      "07-destaque.jpg",
+      "08-final.jpg"
+    ]
   }
 }
