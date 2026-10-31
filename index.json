@@ -1491,5 +1491,19 @@
       "05-destaque.jpg",
       "06-final.jpg"
     ]
+  },
+  "holerite-o-patrao-e-voce": {
+    "slug": "holerite-o-patrao-e-voce",
+    "titulo": "Holerite? O patrão é você",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-passos.jpg",
+      "04-lista.jpg",
+      "05-passos.jpg",
+      "06-destaque.jpg",
+      "07-final.jpg"
+    ]
   }
 }
