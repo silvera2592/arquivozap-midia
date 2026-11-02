@@ -1515,5 +1515,19 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "ja-pagou-o-13-dela": {
+    "slug": "ja-pagou-o-13-dela",
+    "titulo": "Já pagou o 13º dela",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-passos.jpg",
+      "03-lista.jpg",
+      "04-passos.jpg",
+      "05-lista.jpg",
+      "06-destaque.jpg",
+      "07-final.jpg"
+    ]
   }
 }
