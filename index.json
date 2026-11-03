@@ -1539,5 +1539,20 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "buying-a-used-car-check-the-logbook": {
+    "slug": "buying-a-used-car-check-the-logbook",
+    "titulo": "Buying a used car? Check the logbook",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-destaque.jpg",
+      "04-lista.jpg",
+      "05-passos.jpg",
+      "06-passos.jpg",
+      "07-destaque.jpg",
+      "08-final.jpg"
+    ]
   }
 }
