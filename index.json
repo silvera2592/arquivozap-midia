@@ -1554,5 +1554,13 @@
       "07-destaque.jpg",
       "08-final.jpg"
     ]
+  },
+  "nao-gostou-da-pra-devolver": {
+    "slug": "nao-gostou-da-pra-devolver",
+    "titulo": "Não gostou? Dá pra devolver",
+    "formato": "vertical",
+    "arquivos": [
+      "01-reels.mp4"
+    ]
   }
 }
