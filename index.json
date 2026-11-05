@@ -1576,5 +1576,15 @@
       "06-destaque.jpg",
       "07-final.jpg"
     ]
+  },
+  "sua-nota-fiscal-mudou-de-site-stories": {
+    "slug": "sua-nota-fiscal-mudou-de-site-stories",
+    "titulo": "Sua nota fiscal mudou de site — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
