@@ -1562,5 +1562,19 @@
     "arquivos": [
       "01-reels.mp4"
     ]
+  },
+  "sua-nota-fiscal-mudou-de-site": {
+    "slug": "sua-nota-fiscal-mudou-de-site",
+    "titulo": "Sua nota fiscal mudou de site",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-passos.jpg",
+      "04-destaque.jpg",
+      "05-destaque.jpg",
+      "06-destaque.jpg",
+      "07-final.jpg"
+    ]
   }
 }
