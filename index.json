@@ -1586,5 +1586,19 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "school-in-2027-apply-by-15-january": {
+    "slug": "school-in-2027-apply-by-15-january",
+    "titulo": "School in 2027? Apply by 15 January",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-passos.jpg",
+      "04-lista.jpg",
+      "05-passos.jpg",
+      "06-destaque.jpg",
+      "07-final.jpg"
+    ]
   }
 }
