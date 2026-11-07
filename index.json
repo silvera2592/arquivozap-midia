@@ -1600,5 +1600,18 @@
       "06-destaque.jpg",
       "07-final.jpg"
     ]
+  },
+  "a-medica-pediu-o-exame-anterior": {
+    "slug": "a-medica-pediu-o-exame-anterior",
+    "titulo": "A médica pediu o exame anterior",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-chat.jpg",
+      "03-passos.jpg",
+      "04-lista.jpg",
+      "05-destaque.jpg",
+      "06-final.jpg"
+    ]
   }
 }
