@@ -1613,5 +1613,15 @@
       "05-destaque.jpg",
       "06-final.jpg"
     ]
+  },
+  "a-medica-pediu-o-exame-anterior-stories": {
+    "slug": "a-medica-pediu-o-exame-anterior-stories",
+    "titulo": "A médica pediu o exame anterior — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
