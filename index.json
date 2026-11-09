@@ -1637,5 +1637,15 @@
       "06-destaque.jpg",
       "07-final.jpg"
     ]
+  },
+  "o-inss-negou-o-afastamento-stories": {
+    "slug": "o-inss-negou-o-afastamento-stories",
+    "titulo": "O INSS negou o afastamento — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
