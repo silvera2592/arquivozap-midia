@@ -1661,5 +1661,13 @@
       "06-lista.jpg",
       "07-final.jpg"
     ]
+  },
+  "papel-higienico-na-lista-da-escola": {
+    "slug": "papel-higienico-na-lista-da-escola",
+    "titulo": "Papel higiênico na lista da escola?",
+    "formato": "vertical",
+    "arquivos": [
+      "01-reels.mp4"
+    ]
   }
 }
