@@ -1669,5 +1669,19 @@
     "arquivos": [
       "01-reels.mp4"
     ]
+  },
+  "assinou-no-gov-br-essa-nao-vale": {
+    "slug": "assinou-no-gov-br-essa-nao-vale",
+    "titulo": "Assinou no gov.br? Essa não vale",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-passos.jpg",
+      "03-destaque.jpg",
+      "04-lista.jpg",
+      "05-passos.jpg",
+      "06-lista.jpg",
+      "07-final.jpg"
+    ]
   }
 }
