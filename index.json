@@ -1720,5 +1720,15 @@
       "05-destaque.jpg",
       "06-final.jpg"
     ]
+  },
+  "jogou-a-nota-fora-com-a-caixa-stories": {
+    "slug": "jogou-a-nota-fora-com-a-caixa-stories",
+    "titulo": "Jogou a nota fora com a caixa? — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
