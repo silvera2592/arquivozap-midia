@@ -1707,5 +1707,18 @@
       "06-destaque.jpg",
       "07-final.jpg"
     ]
+  },
+  "jogou-a-nota-fora-com-a-caixa": {
+    "slug": "jogou-a-nota-fora-com-a-caixa",
+    "titulo": "Jogou a nota fora com a caixa?",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-passos.jpg",
+      "04-notificacao.jpg",
+      "05-destaque.jpg",
+      "06-final.jpg"
+    ]
   }
 }
