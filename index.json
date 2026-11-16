@@ -1730,5 +1730,20 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "antes-do-pix-da-casa-de-praia": {
+    "slug": "antes-do-pix-da-casa-de-praia",
+    "titulo": "Antes do Pix da casa de praia",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-passos.jpg",
+      "04-destaque.jpg",
+      "05-lista.jpg",
+      "06-destaque.jpg",
+      "07-passos.jpg",
+      "08-final.jpg"
+    ]
   }
 }
