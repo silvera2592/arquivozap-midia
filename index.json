@@ -1745,5 +1745,15 @@
       "07-passos.jpg",
       "08-final.jpg"
     ]
+  },
+  "antes-do-pix-da-casa-de-praia-stories": {
+    "slug": "antes-do-pix-da-casa-de-praia-stories",
+    "titulo": "Antes do Pix da casa de praia — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
