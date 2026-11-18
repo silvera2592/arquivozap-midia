@@ -1769,5 +1769,13 @@
       "06-destaque.jpg",
       "07-final.jpg"
     ]
+  },
+  "tira-print-antes-de-pagar": {
+    "slug": "tira-print-antes-de-pagar",
+    "titulo": "Tira print antes de pagar",
+    "formato": "vertical",
+    "arquivos": [
+      "01-reels.mp4"
+    ]
   }
 }
