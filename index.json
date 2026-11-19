@@ -1792,5 +1792,15 @@
       "07-destaque.jpg",
       "08-final.jpg"
     ]
+  },
+  "sua-cnh-venceu-em-julho-vale-ate-9-12-stories": {
+    "slug": "sua-cnh-venceu-em-julho-vale-ate-9-12-stories",
+    "titulo": "Sua CNH venceu em julho? Vale até 9/12 — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
