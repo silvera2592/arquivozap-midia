@@ -1802,5 +1802,19 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "who-do-we-tell-first": {
+    "slug": "who-do-we-tell-first",
+    "titulo": "When someone dies: who do we tell first?",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-lista.jpg",
+      "04-lista.jpg",
+      "05-passos.jpg",
+      "06-lista.jpg",
+      "07-final.jpg"
+    ]
   }
 }
