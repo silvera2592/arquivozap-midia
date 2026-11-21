@@ -1829,5 +1829,15 @@
       "05-destaque.jpg",
       "06-final.jpg"
     ]
+  },
+  "o-contador-pediu-as-notas-do-ano-stories": {
+    "slug": "o-contador-pediu-as-notas-do-ano-stories",
+    "titulo": "O contador pediu as notas do ano — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
