@@ -1816,5 +1816,18 @@
       "06-lista.jpg",
       "07-final.jpg"
     ]
+  },
+  "o-contador-pediu-as-notas-do-ano": {
+    "slug": "o-contador-pediu-as-notas-do-ano",
+    "titulo": "O contador pediu as notas do ano",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-chat.jpg",
+      "03-passos.jpg",
+      "04-lista.jpg",
+      "05-destaque.jpg",
+      "06-final.jpg"
+    ]
   }
 }
