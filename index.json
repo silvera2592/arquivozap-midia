@@ -1854,5 +1854,15 @@
       "07-destaque.jpg",
       "08-final.jpg"
     ]
+  },
+  "pagou-o-dentista-confira-o-recibo-stories": {
+    "slug": "pagou-o-dentista-confira-o-recibo-stories",
+    "titulo": "Pagou o dentista? Confira o recibo — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
