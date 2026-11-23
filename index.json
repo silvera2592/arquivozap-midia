@@ -1839,5 +1839,20 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "pagou-o-dentista-confira-o-recibo": {
+    "slug": "pagou-o-dentista-confira-o-recibo",
+    "titulo": "Pagou o dentista? Confira o recibo",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-passos.jpg",
+      "04-destaque.jpg",
+      "05-destaque.jpg",
+      "06-lista.jpg",
+      "07-destaque.jpg",
+      "08-final.jpg"
+    ]
   }
 }
