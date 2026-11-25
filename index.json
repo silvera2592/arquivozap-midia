@@ -1878,5 +1878,13 @@
       "06-lista.jpg",
       "07-final.jpg"
     ]
+  },
+  "perdeu-o-rg-no-voo-o-bo-vale": {
+    "slug": "perdeu-o-rg-no-voo-o-bo-vale",
+    "titulo": "Perdeu o RG? No voo, o B.O. vale",
+    "formato": "vertical",
+    "arquivos": [
+      "01-reels.mp4"
+    ]
   }
 }
