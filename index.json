@@ -1901,5 +1901,15 @@
       "07-lista.jpg",
       "08-final.jpg"
     ]
+  },
+  "caiu-em-exigencia-voce-tem-30-dias-stories": {
+    "slug": "caiu-em-exigencia-voce-tem-30-dias-stories",
+    "titulo": "Caiu em exigência? Você tem 30 dias — stories",
+    "formato": "vertical",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-destaque.jpg",
+      "03-texto.jpg"
+    ]
   }
 }
