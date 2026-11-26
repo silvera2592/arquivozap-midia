@@ -1886,5 +1886,20 @@
     "arquivos": [
       "01-reels.mp4"
     ]
+  },
+  "caiu-em-exigencia-voce-tem-30-dias": {
+    "slug": "caiu-em-exigencia-voce-tem-30-dias",
+    "titulo": "Caiu em exigência? Você tem 30 dias",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-chat.jpg",
+      "03-lista.jpg",
+      "04-destaque.jpg",
+      "05-passos.jpg",
+      "06-destaque.jpg",
+      "07-lista.jpg",
+      "08-final.jpg"
+    ]
   }
 }
