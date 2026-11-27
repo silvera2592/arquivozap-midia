@@ -2008,5 +2008,13 @@
       "02.jpg",
       "03.jpg"
     ]
+  },
+  "fixado-como-funciona-video": {
+    "slug": "fixado-como-funciona-video",
+    "titulo": "Como funciona o ArquivoZap (vídeo fixado)",
+    "formato": "vertical",
+    "arquivos": [
+      "01-reels.mp4"
+    ]
   }
 }
