@@ -1978,5 +1978,17 @@
       "04.mp4",
       "05.mp4"
     ]
+  },
+  "destaque-duvidas": {
+    "slug": "destaque-duvidas",
+    "titulo": "Destaque Dúvidas",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg",
+      "05.jpg"
+    ]
   }
 }
