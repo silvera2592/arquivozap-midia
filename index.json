@@ -2016,5 +2016,20 @@
     "arquivos": [
       "01-reels.mp4"
     ]
+  },
+  "como-funciona-o-arquivozap": {
+    "slug": "como-funciona-o-arquivozap",
+    "titulo": "Como funciona o ArquivoZap",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-passos.jpg",
+      "03-chat.jpg",
+      "04-notificacao.jpg",
+      "05-lista.jpg",
+      "06-chat.jpg",
+      "07-destaque.jpg",
+      "08-final.jpg"
+    ]
   }
 }
