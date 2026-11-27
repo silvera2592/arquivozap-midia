@@ -1955,5 +1955,16 @@
       "03.jpg",
       "04.mp4"
     ]
+  },
+  "destaque-gastos": {
+    "slug": "destaque-gastos",
+    "titulo": "Destaque Gastos",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.mp4"
+    ]
   }
 }
