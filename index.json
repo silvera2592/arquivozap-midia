@@ -1922,5 +1922,16 @@
       "03.jpg",
       "04.jpg"
     ]
+  },
+  "destaque-guardar": {
+    "slug": "destaque-guardar",
+    "titulo": "Destaque Guardar",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.mp4"
+    ]
   }
 }
