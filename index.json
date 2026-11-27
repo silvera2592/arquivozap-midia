@@ -1933,5 +1933,16 @@
       "03.jpg",
       "04.mp4"
     ]
+  },
+  "destaque-encontrar": {
+    "slug": "destaque-encontrar",
+    "titulo": "Destaque Encontrar",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.mp4"
+    ]
   }
 }
