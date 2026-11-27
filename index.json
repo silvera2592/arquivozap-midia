@@ -1990,5 +1990,13 @@
       "04.jpg",
       "05.jpg"
     ]
+  },
+  "criativo-como-funciona-loja": {
+    "slug": "criativo-como-funciona-loja",
+    "titulo": "Criativo como funciona loja",
+    "formato": "retrato",
+    "arquivos": [
+      "v1.mp4"
+    ]
   }
 }
