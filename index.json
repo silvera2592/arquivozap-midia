@@ -1966,5 +1966,17 @@
       "03.jpg",
       "04.mp4"
     ]
+  },
+  "destaque-familia-pro": {
+    "slug": "destaque-familia-pro",
+    "titulo": "Destaque Família e Pro",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.mp4",
+      "05.mp4"
+    ]
   }
 }
