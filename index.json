@@ -1911,5 +1911,16 @@
       "02-destaque.jpg",
       "03-texto.jpg"
     ]
+  },
+  "destaque-como-funciona": {
+    "slug": "destaque-como-funciona",
+    "titulo": "Destaque Como funciona",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-video.mp4",
+      "03.jpg",
+      "04.jpg"
+    ]
   }
 }
