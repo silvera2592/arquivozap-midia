@@ -2031,5 +2031,19 @@
       "07-destaque.jpg",
       "08-final.jpg"
     ]
+  },
+  "black-friday-buy-keep-the-email": {
+    "slug": "black-friday-buy-keep-the-email",
+    "titulo": "Black Friday buy? Keep the email",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02-lista.jpg",
+      "03-lista.jpg",
+      "04-destaque.jpg",
+      "05-passos.jpg",
+      "06-lista.jpg",
+      "07-final.jpg"
+    ]
   }
 }
