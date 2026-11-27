@@ -1998,5 +1998,15 @@
     "arquivos": [
       "v1.mp4"
     ]
+  },
+  "destaque-apps": {
+    "slug": "destaque-apps",
+    "titulo": "Destaque Apps",
+    "formato": "retrato",
+    "arquivos": [
+      "01-capa.jpg",
+      "02.jpg",
+      "03.jpg"
+    ]
   }
 }
